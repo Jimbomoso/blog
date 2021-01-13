@@ -18,4 +18,4 @@ This is a simple app I built to play around with an API. The app is written in *
 
 ### What I learned: 
 
-- The aysnc/await keywords make allow the function to pause running until the promise settles yet in an easier to write/understand syntax. 
+- The aysnc/await keywords allow the function to pause running until the promise settles yet in an easier to write/understand syntax. 
