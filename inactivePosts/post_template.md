@@ -1,7 +1,9 @@
 ---
-title: 'Lame Programming Jokes App'
+title: 'enter title'
 date: '2020-01-06'
 ---
+
+Example post: 
 
 This is a simple app I built to play around with an API. The app is written in **JavaScript**, **CSS** and **HTML**. 
 
@@ -19,4 +21,3 @@ This is a simple app I built to play around with an API. The app is written in *
 ### What I learned: 
 
 - The aysnc/await keywords allow the function to pause running until the promise settles yet in an easier to write/understand syntax. 
-m
