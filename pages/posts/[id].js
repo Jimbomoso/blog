@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import { Share } from 'react-twitter-widgets'
 
 import { getAllPostIds, getPostData } from '../../lib/posts'
 
@@ -34,6 +35,7 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <Share url='https://www.twitter.com' />
         </article>
       </Layout>
     )

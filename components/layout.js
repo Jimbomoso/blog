@@ -2,8 +2,10 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { Follow } from 'react-twitter-widgets'
 
 const name = 'James Morrison'
+
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
@@ -34,6 +36,7 @@ export default function Layout({ children, home }) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
+            <Follow username='jimbomoso' url='https://twitter.com/jimbomoso'/>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
@@ -47,6 +50,7 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
+            <Follow username='jimbomoso' url='https://twitter.com/jimbomoso'/>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>

@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>Adventures in coding</title>
       </Head>
       <section className={utilStyles.headingMd}>
-      <img
+        <img
           src="/images/beach.jpg"
           className={utilStyles.hero}
         />

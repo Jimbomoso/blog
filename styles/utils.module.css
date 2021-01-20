@@ -23,13 +23,13 @@
   .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
-
   }
 
   .borderCircle {
     border-radius: 999999px;
     border: 9px dotted rgb(240, 3, 3);
     padding: 10px;
+    margin-bottom: 10px;
   }
   
   .colorInherit {
