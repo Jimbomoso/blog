@@ -19,6 +19,7 @@ export default function Layout({ children, home, pageTitle, description }) {
           name="description"
           content={description}
         />
+        <meta property="og:title" content={pageTitle} key="ogtitle" />
         <title>{pageTitle}</title>
       </Head>
       <header className={styles.header}>
