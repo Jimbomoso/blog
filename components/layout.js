@@ -19,7 +19,7 @@ export default function Layout({ children, home }) {
           content="Web development blog"
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="" />
       </Head>
       <header className={styles.header}>
         
