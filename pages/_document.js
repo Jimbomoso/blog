@@ -5,7 +5,7 @@ class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
-
+g
   render() {
     return (
       <Html lang="en">
