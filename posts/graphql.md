@@ -1,5 +1,5 @@
 ---
-title: 'What is graphql?'
+title: 'What is GraphQL?'
 date: '2021-01-27'
 ---
 ### What is GraphQL? 
