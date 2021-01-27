@@ -13,14 +13,13 @@ export default function Layout({ children, home, pageTitle, description }) {
     <>
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial scale=1" />
+        <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Web development blog"
+          content={description}
         />
-        <title>{siteTitle}</title>
-        <meta name="og:title" content={pageTitle} key="ogtitle"/>
-        <meta name="og:description" content={description} key="ogdesc" />
+        <title>{pageTitle}</title>
       </Head>
       <header className={styles.header}>
         
