@@ -8,7 +8,7 @@ const name = 'James Morrison'
 
 export const siteTitle = 'Adventures in Coding'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, pageTitle }) {
   return (
     <>
     <div className={styles.container}>
@@ -18,8 +18,9 @@ export default function Layout({ children, home }) {
           name="description"
           content="Web development blog"
         />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="" />
+        <title>{siteTitle}</title>
+        <meta name="og:title" content={pageTitle} />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
         
