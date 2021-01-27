@@ -35,7 +35,7 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-          <Share url='https://www.twitter.com' />
+          <Share url={postData.getStaticPaths} />
         </article>
       </Layout>
     )
