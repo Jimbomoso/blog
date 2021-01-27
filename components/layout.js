@@ -21,7 +21,6 @@ export default function Layout({ children, home, pageTitle, description }) {
         <title>{siteTitle}</title>
         <meta name="og:title" content={pageTitle} key="ogtitle"/>
         <meta name="og:description" content={description} key="ogdesc" />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
         
