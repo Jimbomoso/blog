@@ -1,6 +1,6 @@
 ---
 title: 'Lame Programming Jokes App'
-date: '2020-01-06'
+date: '2021-01-06'
 ---
 
 This is a simple app I built to play around with an API. The app is written in **JavaScript**, **CSS** and **HTML**. 

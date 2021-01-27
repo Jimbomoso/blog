@@ -1,6 +1,6 @@
 ---
 title: 'Random Quote App'
-date: '2020-01-13'
+date: '2021-01-13'
 ---
 
 This is a simple app I built to meet the requirements of a freeCodeCamp front end certification project. The app uses **React** and **Bootstrap**.
