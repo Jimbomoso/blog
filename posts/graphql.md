@@ -18,8 +18,8 @@ GraphQL is basically a standardized way for an application to specify what data 
 
 At a high level, an API is designed to do two things: 
 
-    1) To provide a way for external sources to access stored information 
+1. To provide a way for external sources to access stored information 
 
-    2) To process the requests made for the information from the resource
+2.   To process the requests made for the information from the resource
 
 In summary, GraphQL is a langauge that applications can talk to external information resources in to explain what data they are seeking and how they would like to receive said data back.
