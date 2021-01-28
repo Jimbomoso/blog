@@ -8,7 +8,7 @@ const name = 'James Morrison'
 
 export const siteTitle = 'Adventures in Coding'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, description, pageTitle }) {
   return (
     <>
     <div className={styles.container}>
