@@ -21,7 +21,6 @@ export default function Layout({ children, home, description, pageTitle }) {
         />
         <title>{pageTitle}</title>
         <meta name="twitter:card" content="summary" key="twcard" />
-        <meta name="twitter:creator" content={twitterHandle} key="twhandle" />
         <meta property="og:site_name" content={siteName} key="ogsitename" />
         <meta property="og:title" content={pageTitle} key="ogtitle" />
 
