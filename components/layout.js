@@ -3,12 +3,17 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { Follow } from 'react-twitter-widgets'
+import Prism from 'Prismjs'
+import { useEffect } from 'react'
 
 const name = 'James Morrison'
 
 export const siteTitle = 'Adventures in Coding'
 
 export default function Layout({ children, home, description, pageTitle }) {
+  useEffect(() => {
+    Prism.highlightAll();
+  }, []);
   return (
     <>
     <div className={styles.container}>
@@ -23,7 +28,7 @@ export default function Layout({ children, home, description, pageTitle }) {
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta property="og:site_name" content={siteTitle} key="ogsitename" />
         <meta property="og:title" content={pageTitle} key="ogtitle" />
-
+        
       </Head>
       <header className={styles.header}>
         
