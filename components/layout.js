@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { Follow } from 'react-twitter-widgets'
-import Prism from 'Prismjs.js'
+import Prism from 'prismjs.js'
 import { useEffect } from 'react'
 
 const name = 'James Morrison'
