@@ -1,6 +1,7 @@
 ---
 title: 'Chat app from scratch - part 1 - setup'
 date: '2021-01-28'
+description: 'Iniital setup of project'
 ---
 
 In this post I build a chat app from scratch using the MERNG stack which is **Mongodb**, **Express**, **React**, **Node**, **GraphQL**.

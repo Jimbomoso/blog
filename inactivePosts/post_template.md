@@ -1,6 +1,7 @@
 ---
 title: 'enter title'
 date: '2020-01-06'
+description: 'description'
 ---
 
 Example post: 
