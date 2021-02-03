@@ -1,8 +1,9 @@
 ---
 title: 'What is GraphQL?'
 date: '2021-01-27'
-description: 'A technical and non-technical explaination'
+description: 'An attempt at concise explanations of GraphQL in technical and non-technical terms.'
 ---
+
 ### What is GraphQL? 
 
 An open-source data query langage 
@@ -21,6 +22,6 @@ At a high level, an API is designed to do two things:
 
 1. To provide a way for external sources to access stored information 
 
-2.   To process the requests made for the information from the resource
+2. To process the requests made for the information from the resource
 
 In summary, GraphQL is a langauge that applications can talk to external information resources in to explain what data they are seeking and how they would like to receive said data back.
